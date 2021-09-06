@@ -12,16 +12,16 @@ public class App {
         System.out.println("Verzió: 0.0.2");
         
         //A get objektummal kérhetünk be a konzolról
-        Scanner get = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Felhasználónév: ");
-        String name = get.nextLine();
+        String name = input.nextLine();
         // A password változó tárolja a jelszót
         System.out.print("Jelszó: ");
-        String password = get.nextLine();
+        String password = input.nextLine();
         System.out.print("Hely: ");
-        String place = get.nextLine();
-        get.close();
+        String place = input.nextLine();
+        input.close();
         int success = 0;
         try {
             /* 
