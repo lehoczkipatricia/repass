@@ -9,7 +9,7 @@ public class App {
         //Fejrész kiírása
         System.out.println("Jelszavak");
         //Verzió kiírása
-        System.out.println("Verzió: 0.0.1");
+        System.out.println("Verzió: 0.0.2");
         
         //A get objektummal kérhetünk be a konzolról
         Scanner get = new Scanner(System.in);
